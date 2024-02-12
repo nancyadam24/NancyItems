@@ -4,7 +4,7 @@ My own non-complete website related to buying men's and women's fashion items.
 ## Features
 
 - Sign Up System (PHP, MySql)
-- Login In System (PHP, MySql)
+- Login System (PHP, MySql)
 - Animation (CSS, JavaScript)
 
   ---Not responsive---
