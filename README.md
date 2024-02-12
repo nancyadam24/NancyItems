@@ -7,6 +7,10 @@ My own non-complete website related to buying men's and women's fashion items.
 - Login In System (PHP, MySql)
 - Animation (CSS, JavaScript)
 
+## Installation
+
+Install by importing this project over to Visual Studio Code and XAMPP (this file must be in htdocs of xampp).
+
 # Screenshots
 | Main Screen | Sign Up Screen | Login In Screen | Social Media Screen |
 |-------------|----------------|-----------------|--------------------|
