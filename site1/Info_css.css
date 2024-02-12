@@ -1,0 +1,131 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.base-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2; 
+}
+
+.body-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px);
+  margin: 0;
+  padding: 0;
+}
+
+.animated-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: linear-gradient(to bottom,honeydew, #5e43f6); /* Replace with your desired background gradient */
+  animation: animatedBackground 5s infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.info {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: -5vh;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #0a0134;
+  text-align: center; 
+  background-color:rgba(240, 248, 255, 0.551);
+}
+
+.box-container {
+  display: flex;
+  color: aliceblue;
+}
+
+.info p {
+  position: absolute;
+  margin-top: -4vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: -50vh;
+  margin-left: 20vh;
+  margin-top: 120px;
+}
+
+.social-icons a {
+  margin-right: 35vh;
+  color: #333;
+  font-size: 24px;
+}
+
+.info-content {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-heading {
+  font-weight: bold;
+  margin: 0;
+  margin-right: 5%;
+  margin-top: 4vh;
+  font-size: 13px;
+  font-weight: bold 700;
+  white-space: nowrap;
+  font-family: 'Lora', serif;
+  animation: slideIn 2s ease-in-out infinite alternate;
+}
+
+.mobile-heading {
+  position: absolute;
+  top: -10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  white-space: nowrap;
+  font-family: 'Lora', serif;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+
