@@ -7,7 +7,7 @@ My own non-complete website related to buying men's and women's fashion items.
 - Login In System (PHP, MySql)
 - Animation (CSS, JavaScript)
 
-  ---Not responsive at all---
+  ---Not responsive---
 
 ## Installation
 
