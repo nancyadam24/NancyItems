@@ -1,5 +1,6 @@
 # NancyItems
-My own non-complete website related to buying men's and women's fashion items.
+My own first and non-complete website related to buying men's and women's fashion items.
+I intend to rebuild it from scratch with the aim of making it responsive and with better technologies.
 
 ## Features
 
